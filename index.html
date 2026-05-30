@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demarco | Web3 Builder</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">demarco<span class="accent">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="badge">Blockchain Developer</div>
+          <h1>Hey, I'm <span class="gradient-text">Demarco</span></h1>
+          <p class="hero-subtitle">Web3 Builder & Ecosystem Contributor</p>
+          <p class="hero-desc">Building the future of onchain finance, one block at a time. Active contributor on <strong>Base</strong> • <strong>ARC</strong> • <strong>GenLayer</strong>.</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="stat-number" data-target="28">0</span>
+              <span class="stat-label">Repos</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-target="6">0</span>
+              <span class="stat-label">Ecosystems</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-target="5">0</span>
+              <span class="stat-label">Testnets</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="glow-orb"></div>
+          <div class="code-block">
+            <pre><code><span class="comment">// web3.demarco</span>
+<span class="keyword">const</span> <span class="variable">builder</span> = {
+  <span class="property">name</span>: <span class="string">"Demarco"</span>,
+  <span class="property">stack</span>: [<span class="string">"Go"</span>, <span class="string">"TS"</span>, <span class="string">"Solidity"</span>],
+  <span class="property">mission</span>: <span class="string">"Onchain finance"</span>
+};
+
+<span class="keyword">while</span> (<span class="variable">builder</span>.<span class="property">building</span>) {
+  <span class="built-in">contribute</span>(); <span class="comment">// daily</span>
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About <span class="accent">Me</span></h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Blockchain developer and bug bounty hunter from <strong>Morocco</strong> 🇲🇦. Passionate about decentralized finance, smart contract security, and building in public.</p>
+          <p>Active member of <strong>Arc Architects Program</strong> and contributor across multiple L1/L2 ecosystems. I believe in the power of open source and community-driven development.</p>
+          <div class="about-tags">
+            <span class="tag">🐛 Bug Bounty</span>
+            <span class="tag">⛓️ Smart Contracts</span>
+            <span class="tag">🔧 Testnet Ops</span>
+            <span class="tag">🌍 Open Source</span>
+          </div>
+        </div>
+        <div class="about-quote">
+          <blockquote>"Building the future of onchain finance, one block at a time."</blockquote>
+          <span class="quote-author">— Demarco</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Tech <span class="accent">Stack</span></h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon go-icon">Go</div>
+          <h3>Go</h3>
+          <p>Blockchain nodes & backend services</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon ts-icon">TS</div>
+          <h3>TypeScript</h3>
+          <p>dApps, automation & tooling</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon sol-icon">SOL</div>
+          <h3>Solidity</h3>
+          <p>Smart contracts & EVM development</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon eth-icon">ETH</div>
+          <h3>Ethereum</h3>
+          <p>L1/L2 protocols & DeFi</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon rust-icon">RS</div>
+          <h3>Rust</h3>
+          <p>Node operations & WASM</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon py-icon">PY</div>
+          <h3>Python</h3>
+          <p>Trading bots & data analysis</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">⛓️</span>
+            <div class="project-links">
+              <a href="https://github.com/demarco2016/ARC-commits" target="_blank">GH</a>
+            </div>
+          </div>
+          <h3>ARC-commits</h3>
+          <p>ARC ecosystem tools & daily points automation. Built for Circle's L1 blockchain.</p>
+          <div class="project-tags">
+            <span>automation</span>
+            <span>circle</span>
+            <span>web3</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🔵</span>
+            <div class="project-links">
+              <a href="https://github.com/demarco2016/Base-commits" target="_blank">GH</a>
+            </div>
+          </div>
+          <h3>Base-commits</h3>
+          <p>Base ecosystem monitoring & project tracking across Coinbase's L2.</p>
+          <div class="project-tags">
+            <span>coinbase</span>
+            <span>ethereum</span>
+            <span>layer2</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🧬</span>
+            <div class="project-links">
+              <a href="https://github.com/demarco2016/GenLayer-commits" target="_blank">GH</a>
+            </div>
+          </div>
+          <h3>GenLayer-commits</h3>
+          <p>GenLayer testnet contributions, smart contracts & ecosystem tracking.</p>
+          <div class="project-tags">
+            <span>genlayer</span>
+            <span>testnet</span>
+            <span>automation</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">🟣</span>
+            <div class="project-links">
+              <a href="https://github.com/demarco2016/Miden-commits" target="_blank">GH</a>
+            </div>
+          </div>
+          <h3>Miden-commits</h3>
+          <p>Miden ecosystem contribution hub & zero-knowledge testnet automation.</p>
+          <div class="project-tags">
+            <span>polygon</span>
+            <span>zero-knowledge</span>
+            <span>miden</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">💰</span>
+            <div class="project-links">
+              <a href="https://github.com/demarco2016/airdrop-calculator" target="_blank">GH</a>
+            </div>
+          </div>
+          <h3>Airdrop Calculator</h3>
+          <p>Airdrop Calculator by Demarco & Zak Pedro — estimate your airdrop allocations.</p>
+          <div class="project-tags">
+            <span>web3</span>
+            <span>airdrop</span>
+            <span>calculator</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-icon">📊</span>
+            <div class="project-links">
+              <a href="https://github.com/demarco2016/openbb-trading" target="_blank">GH</a>
+            </div>
+          </div>
+          <h3>OpenBB Trading</h3>
+          <p>Financial data & market analysis using OpenBB — free Bloomberg Terminal alternative.</p>
+          <div class="project-tags">
+            <span>finance</span>
+            <span>python</span>
+            <span>data</span>
+          </div>
+        </div>
+      </div>
+      <div class="projects-footer">
+        <a href="https://github.com/demarco2016?tab=repositories" target="_blank" class="btn btn-outline">View All 28 Repos →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">🐦</span>
+            <div>
+              <span class="contact-label">X / Twitter</span>
+              <a href="https://x.com/Demarco639" target="_blank">@Demarco639</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">💻</span>
+            <div>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/demarco2016" target="_blank">demarco2016</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🏠</span>
+            <div>
+              <span class="contact-label">ARC House</span>
+              <a href="https://community.arc.io" target="_blank">community.arc.io</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">💳</span>
+            <div>
+              <span class="contact-label">ETH</span>
+              <span class="mono">qatarcoupedumonde2022.eth</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div>
+              <span class="contact-label">Location</span>
+              <span>Morocco 🇲🇦</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-cta">
+          <h3>Let's build together</h3>
+          <p>Open to collaborations, bug bounties, and ecosystem contributions. Reach out on X or open an issue on any of my repos.</p>
+          <a href="https://x.com/Demarco639" target="_blank" class="btn btn-primary">DM on X</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Demarco. Built in public.</p>
+      <div class="footer-links">
+        <a href="https://github.com/demarco2016" target="_blank">GitHub</a>
+        <a href="https://x.com/Demarco639" target="_blank">X</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
