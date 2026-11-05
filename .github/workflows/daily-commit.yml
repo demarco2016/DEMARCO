@@ -1,41 +1,32 @@
-name: Daily Auto Commit
+name: Portfolio Health Check
 
 on:
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '0 10 * * 1'  # Weekly on Monday
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  auto-commit:
+  health-check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate daily activity file
+      - name: Validate HTML and assets
         run: |
-          date=$(date '+%Y-%m-%d %H:%M:%S')
-          day=$(date '+%j')
-          cat > daily-log.md << EOF
-# Daily Activity Log
-## Date: $date
-## Day $day of 2026
+          echo "Checking portfolio files..."
+          test -f index.html || (echo "Missing index.html" && exit 1)
+          test -f style.css || (echo "Missing style.css" && exit 1)
+          test -f script.js || (echo "Missing script.js" && exit 1)
+          echo "All core files present."
 
-### Tasks Completed
-- [x] Daily contribution streak maintained
-- [x] Ecosystem check performed
-- [x] Activity logged
-
----
-*This is an automated commit by GitHub Actions*
-EOF
-
-      - name: Commit and Push
+      - name: Check for common issues
         run: |
-          git config user.name "demarco2016"
-          git config user.email "demarco2016@users.noreply.github.com"
-          git add -A
-          git commit --allow-empty -m "Auto commit [$(date +%Y-%m-%d)] - Daily streak maintained"
-          git push
+          if grep -q "TODO\|FIXME" index.html style.css script.js; then
+            echo "Found TODO/FIXME comments - review recommended"
+          fi
+          echo "Health check passed."
