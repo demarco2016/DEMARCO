@@ -1,52 +1,51 @@
 # DEMARCO
 
-> Portfolio & automation hub for blockchain ecosystem contributions.
+> AI & Web3 Builder | Automation, Agents, and On-Chain Intelligence
 
-[![GitHub Pages](https://img.shields.io/badge/Live-Portfolio-6c5ce7?style=flat-square)](https://demarco2016.github.io/DEMARCO)
+[![Live Portfolio](https://img.shields.io/badge/Live-Portfolio-00b4ff?style=flat-square)](https://demarco2016.github.io/DEMARCO/)
 [![X](https://img.shields.io/badge/X-%40Demarco639-000000?style=flat-square&logo=x)](https://x.com/Demarco639)
 [![GitHub](https://img.shields.io/badge/GitHub-demarco2016-181717?style=flat-square&logo=github)](https://github.com/demarco2016)
 
 ---
 
-## 🚀 Live Site
+## Live Site
 
-🌐 **https://demarco2016.github.io/DEMARCO**
+**https://demarco2016.github.io/DEMARCO/**
 
----
-
-## 🛠️ Tech Stack
-
-Go | TypeScript | Solidity | Rust | Python | Ethereum
+Modern dark portfolio focused on AI-powered automation and Web3 development.
 
 ---
 
-## 📦 Featured Projects
+## Focus Areas
 
-| Repo | Description |
-|------|-------------|
-| [ARC-commits](https://github.com/demarco2016/ARC-commits) | ARC ecosystem tools & daily points automation |
-| [Base-commits](https://github.com/demarco2016/Base-commits) | Base ecosystem monitoring & project tracking |
-| [GenLayer-commits](https://github.com/demarco2016/GenLayer-commits) | GenLayer testnet contributions & smart contracts |
-| [Miden-commits](https://github.com/demarco2016/Miden-commits) | Miden testnet tutorials & playground automation |
-| [Airdrop Calculator](https://github.com/demarco2016/airdrop-calculator) | Airdrop Calculator by Demarco & Zak Pedro |
-| [OpenBB Trading](https://github.com/demarco2016/openbb-trading) | Financial data & market analysis |
+- Artificial Intelligence and AI Agents
+- AI-powered automation and content pipelines
+- Web3 and blockchain infrastructure
+- DeFi analytics and on-chain research
+- Python and JavaScript development
+- Developer tools and API integrations
 
 ---
 
-## 🤖 Automations
+## Featured Projects
 
-- **Daily Auto Commit** — GitHub Actions workflow to maintain contribution streak (runs daily at 10:00 UTC)
-- **GitHub Pages Deploy** — Automatic deployment on push to `main`
+| Repository | Description |
+|------------|-------------|
+| [DEMARCO](https://github.com/demarco2016/DEMARCO) | Portfolio site and automation hub |
+| [ARC-commits](https://github.com/demarco2016/ARC-commits) | ARC ecosystem tools |
+| [Base-commits](https://github.com/demarco2016/Base-commits) | Base ecosystem monitoring |
+| [finance-watcher](https://github.com/demarco2016/finance-watcher) | Crypto price alerts |
+| [openbb-trading](https://github.com/demarco2016/openbb-trading) | Financial data analysis |
+| [genlayer-contracts](https://github.com/demarco2016/genlayer-contracts) | GenLayer smart contracts |
 
 ---
 
-## 🔗 Links
+## Links
 
 - **X**: [@Demarco639](https://x.com/Demarco639)
-- **ETH**: `qatarcoupedumonde2022.eth`
-- **ARC House**: [community.arc.io](https://community.arc.io)
-- **Location**: Morocco 🇲🇦
+- **GitHub**: [demarco2016](https://github.com/demarco2016)
+- **Location**: Morocco
 
 ---
 
-*"Building the future of onchain finance, one block at a time."* ⛓️
+Building practical AI and Web3 tools.
